@@ -1,0 +1,250 @@
+*{margin: 0;padding: 0;}
+html{ font-family: "Microsoft YaHei"; color:#333; font-size:100px;}
+html,body{width:100%;min-width:7.2rem;height:100%;}
+body,p,ul,ol,dl,dd,dt,p,h2,h3,h4,h5,h6{ margin:0; padding:0; font-size:0.14rem;text-indent:0;}
+li{ list-style:none; }
+a{ text-decoration:none; color:#333; }
+a img{ border:0; }
+img{ vertical-align:middle;}
+table{border-collapse:collapse;border-spacing:0;}
+.clear{ *zoom:1; }
+.clear:after{ content:""; display:block; clear:both; }
+.fl{float: left}
+.fr{float: right}
+
+.main{width: 7.2rem;margin: 0 auto}
+.zg-wrap{margin: 0 auto;width: 7.2rem;}
+/*头部*/
+.zg_header{
+	height: 0.5rem;
+	width: 100%;
+	background: #1b1b1b;
+}
+.logo{
+	width: 1.60rem;
+	height: 0.5rem;
+	margin-left: 0.1rem
+}
+.logo img{
+	width:1.60rem;
+	height: 0.5rem;
+}
+.phone{
+	font: bold 0.18rem/0.5rem "Microsoft YaHei";
+	margin-right: 0.1rem;
+	padding-left: 0.35rem;
+	background: url(../images/phone.png) no-repeat left center;
+	background-size: 0.26rem;
+}
+.phone a{
+	color: #fff;
+}
+
+.banner img{
+    display: block;
+    width: 7.2rem;
+}
+
+.zg_main1{
+    height: 8.61rem;
+    background: url("../images/m1.jpg") no-repeat center;
+    -webkit-background-size: 7.2rem;
+    background-size: 7.2rem;
+    position: relative;
+}
+.m1_h{
+    text-indent: -999rem;
+    height: 0.78rem;
+    background: url("../images/m2.png") no-repeat center;
+    -webkit-background-size: 6.08rem;
+    background-size: 6.08rem;
+}
+.zg_main1 p{
+    width: 4.12rem;
+    height: 0.9rem;
+    line-height: 0.9rem;
+    margin-top: 0.3rem;
+}
+.zg_main1 p span{
+    display: inline-block;
+    font: 0.22rem/0.38rem 'Microsoft YaHei';
+    vertical-align: middle;
+}
+.zg_main2{
+    height: 9.65rem;
+    background: url("../images/m3.jpg") no-repeat center;
+    -webkit-background-size: 7.2rem;
+    background-size: 7.2rem;
+    overflow: hidden;
+}
+.zg_main2 h2{
+    text-align: center;
+    font: bold 0.26rem/0.26rem 'Microsoft YaHei';
+    margin-top: 1.7rem;
+}
+.zg_main2 > p{
+    text-align: center;
+    font: 0.22rem/0.48rem 'Microsoft YaHei';
+    margin-top: 8px;
+}
+.zg_fx{
+    margin: 0.02rem 0 0 0.28rem;
+    position: relative;
+}
+.zg_fx li{
+    float: left;
+    margin: 0.26rem 0 0 0.16rem;
+    width: 0.92rem;
+    height: 0.6rem;
+}
+.zg_fx li p{
+    width: 0.92rem;
+    height: 0.6rem;
+    text-align: center;
+    font: 0.22rem/0.6rem 'Microsoft YaHei';
+    background: #e7e7e7;
+    border-radius: 0.05rem;
+}
+.zg_fx li p.on{
+    background: #fa6974;
+    color: #fff;
+}
+.zg_fx li div{
+    position: absolute;
+    left: 0.16rem;
+    top: 1.06rem;
+    width: 6.32rem;
+    height: 0.94rem;
+    border: 0.01rem solid #ebebeb;
+    border-radius: 0.04rem;
+    background: #fafafa;
+    overflow: hidden;
+    display: none;
+}
+.zg_fx li div img{
+    float: left;
+    width: 0.51rem;
+    margin: 0.35rem 0 0 0.28rem;
+}
+.zg_fx li div span,.zg_fx li div a{
+    float: left;
+    margin: 0.33rem 0 0 0.2rem;
+    font: 0.22rem/0.32rem 'Microsoft YaHei';
+}
+.zg_fx li div a{
+    padding-left: 0.5rem;
+    color: #fa5461;
+    text-decoration: underline;
+}
+.zg_fx li div a:nth-child(3){
+    background: url("../images/m5.png") no-repeat left center;
+    -webkit-background-size: 0.44rem;
+    background-size: 0.44rem;
+}
+.zg_fx li div a:nth-child(4){
+    background: url("../images/m6.png") no-repeat left center;
+    -webkit-background-size: 0.3rem;
+    background-size: 0.3rem;
+}
+.zg_main3 h2{
+    text-indent: -999rem;
+    height: 0.74rem;
+    background: url("../images/m7.jpg") no-repeat center;
+    -webkit-background-size: 7.2rem;
+    background-size: 7.2rem;
+}
+.m3_tab_wrap{
+    width: 7.2rem;
+    background: url("../images/m8.jpg") repeat-y center top;
+    -webkit-background-size: 7.2rem;
+    background-size: 7.2rem;
+}
+.m3_tab{
+    margin: 0 auto;
+    border-collapse: collapse;
+    border: 0.02rem solid #e7e7e7;
+}
+.m3_tab th{
+    font: bold 0.24rem/0.7rem 'Microsoft YaHei';
+    color: #fff;
+    background: #fa6974;
+    text-align: center;
+}
+.m3_tab td{
+    border: 0.01rem solid #e7e7e7;
+    font: 0.18rem/0.26rem 'Microsoft YaHei';
+    text-align: center;
+    padding: 0.16rem 0;
+}
+.m3_tab .xw td{
+    background: #fff5f6;
+}
+.m3_foot{
+    height: 2.82rem;
+    background: url("../images/m9.jpg") no-repeat center;
+    -webkit-background-size: 7.2rem;
+    background-size: 7.2rem;
+    overflow: hidden;
+}
+.m3_foot p{
+    font: 0.22rem/0.38rem 'Microsoft YaHei';
+    margin: 0.48rem 0 0 2.27rem;
+    color: #fff;
+}
+.zg_main4{
+    height: 7.27rem;
+    background: url("../images/m10.jpg") no-repeat center;
+    -webkit-background-size: 7.2rem;
+    background-size: 7.2rem;
+    overflow: hidden;
+}
+.zg_main4 p{
+    font: 0.22rem/0.4rem 'Microsoft YaHei';
+    margin: 4rem 0 0 0.95rem;
+}
+.zg_main4 p a{
+    font-weight: bold;
+    color: #fa6b76;
+    text-decoration: underline;
+}
+.qr img{
+    display: block;
+    width: 7.2rem;
+    margin-bottom: 0.68rem;
+}
+.fix{
+    width: 7.2rem;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    height: 0.68rem;
+    z-index:999;
+}
+.fix a{
+    display: block;
+    flex:1;
+    height: 100%;
+    text-align: center;
+    line-height: 0.68rem;
+    font-size: 0.24rem;
+    color: #fff
+}
+.fix1{
+    background: url(../images/fix1.png) no-repeat 15% center #000;
+    -webkit-background-size: 0.46rem;
+    background-size: 0.46rem;
+}
+.fix2{
+    background: url(../images/fix2.png) no-repeat 15% center #e62929;
+    -webkit-background-size: 0.61rem;
+    background-size: 0.61rem;
+}
+.zixun{
+    position: fixed;
+    right: 0;
+    top: 50%;
+}
+.zixun img{
+    display: block;
+    width: 1.38rem;
+}
